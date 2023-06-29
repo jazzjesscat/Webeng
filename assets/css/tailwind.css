@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+ .main-grid {
+ @apply grid grid-cols-5 md:grid-cols-12;
+ }
+ .main-h1 {
+ @apply font-bold;
+ }
+}
+
+.navbar{
+    color: white;
+    background-color: black;
+    outline: 5px white;
+}
+
+.Kontakt{
+    outline: 5px white;
+}
+.contact {
+    outline: 5px black;
+}
